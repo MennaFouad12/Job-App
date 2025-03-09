@@ -24,12 +24,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/auth/register",
-							"protocol": "http",
+							"raw": "https://job-app-neon.vercel.app/auth/register",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"job-app-neon",
+								"vercel",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"auth",
 								"register"
@@ -53,12 +54,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/auth/confirmOtp",
-							"protocol": "http",
+							"raw": "https://job-app-neon.vercel.app/auth/confirmOtp",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"job-app-neon",
+								"vercel",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"auth",
 								"confirmOtp"
@@ -74,7 +76,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \r\n    \"email\":\"mm6331329@gmail.com\",\r\n    \"password\":\"Menna12345#\"\r\n}",
+							"raw": "{\r\n    \r\n   \"email\":\"ahmed@gmail.com\",\r\n    \"password\":\"Menna12345#\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -82,12 +84,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/auth/login",
-							"protocol": "http",
+							"raw": "https://job-app-neon.vercel.app/auth/login",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"job-app-neon",
+								"vercel",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"auth",
 								"login"
@@ -111,12 +114,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/auth/forgot_Password",
-							"protocol": "http",
+							"raw": "https://job-app-neon.vercel.app/auth/forgot_Password",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"job-app-neon",
+								"vercel",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"auth",
 								"forgot_Password"
@@ -140,12 +144,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/auth/reset_Password",
-							"protocol": "http",
+							"raw": "https://job-app-neon.vercel.app/auth/reset_Password",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"job-app-neon",
+								"vercel",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"auth",
 								"reset_Password"
@@ -172,12 +177,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/auth/refresh_token",
-							"protocol": "http",
+							"raw": "https://job-app-neon.vercel.app/auth/refresh_token",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"job-app-neon",
+								"vercel",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"auth",
 								"refresh_token"
